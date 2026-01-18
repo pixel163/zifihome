@@ -1,0 +1,13 @@
+.filter-buttons .btn {
+  background-color: #0d6efd;
+  color: #fff;
+  border: none;
+  margin: 5px;
+  transition: 0.3s;
+}
+
+.filter-buttons .btn.active,
+.filter-buttons .btn:hover {
+  background-color: #0b5ed7;
+  color: #fff;
+}
