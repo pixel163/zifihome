@@ -6,10 +6,12 @@
 .hero-slider {
   display: flex;
   transition: transform 0.6s ease-in-out;
+  will-change: transform;
 }
 
 .hero-slide {
   min-width: 100%;
+  position: relative;
 }
 
 /* Navigation button (mirip testimonial) */
@@ -39,11 +41,11 @@
 }
 
 .hero-nav.prev {
-  left: 30px;
+  left: 15px;
 }
 
 .hero-nav.next {
-  right: 30px;
+  right: 15px;
 }
 
 /* Product slider nav (samain hero & testimonial) */

@@ -160,6 +160,21 @@ a {
       @media (min-width: 1200px) {
         .hero .hero-img-wrap:after {
           top: -40px; } }
+    /* Geser dots khusus HERO SLIDER */
+    .hero-slider .hero-img-wrap::after {
+      right: -50px;            /* makin minus = makin ke kanan */
+      transform: none;          /* matiin transform bawaan untree */
+    }
+    @media (max-width: 767px) {
+      .hero-img-wrap {
+        display: none;
+      }
+    }
+    @media (max-width: 767px) {
+      .hero-nav {
+        display: none;
+      }
+    }
 
 .btn {
   font-weight: 600;
